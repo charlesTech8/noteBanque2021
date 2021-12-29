@@ -1,0 +1,31 @@
+public void depot(View view) {
+        Intent depot = new Intent(this, Depot.class);
+        startActivity(depot);
+    }
+
+    public void retrait(View view) {
+        Intent retrait = new Intent(this, Retrait.class);
+        startActivity(retrait);
+    }
+
+    public void transfert(View view) {
+        Intent transfert = new Intent(this, Transfert.class);
+        startActivity(transfert);
+    }
+
+    public void historique(View view) {
+
+    }
+
+    public void consulter(View view) {
+
+    }
+
+    public void deconnexion(View view) {
+        finish();
+    }
+
+    public void client(View view) {
+        Intent client = new Intent(this, Client.class);
+        startActivity(client);
+    }
